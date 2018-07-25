@@ -1,6 +1,3 @@
-title: Chris Varanese Page
-author: Chris Varanese
-
 ## Welcome to GitHub Pages
 
 ### Support or Contact
