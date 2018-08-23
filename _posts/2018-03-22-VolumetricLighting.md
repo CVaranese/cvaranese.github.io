@@ -52,7 +52,7 @@ This is a dragon rotating in the scene so that we can really look at how it ende
 	https://i.imgur.com/TejZdEp.png
     https://i.imgur.com/U12Vx7L.png
 {% endcapture %}
-{% include gallery images=images caption="Images of the scene" cols=2 %}</p>
+{% include gallery images=images caption="Images of the scene" cols=2 %}
 
 The only problem is that, when the sampling isn't set that high, there are these weird circles, similar to shadow acne. I am not quite sure how to fix this.
 
