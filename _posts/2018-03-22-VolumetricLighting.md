@@ -14,9 +14,6 @@ tag:
 - csc471
 comments: true
 ---
-
-# Volumetric Lighting
-
 ## Project Description
 
 This project sought first to create shadows using a shadowmap. After that, volumetric lighting, i.e. "God Rays," were created using a similar technology. This lighting technique results in visible light rays, as if the air were cloudy or foggy. As volumetric lighting was the key feature of this project, the shadows and overall scene are not ideal, meaning the shadows are unoptomized, shown by the low resolution edges and a low amount of shadow acne.
