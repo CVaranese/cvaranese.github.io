@@ -35,7 +35,7 @@ Of course, the new technologies featured in the project are:
 
 ## How it works
 
-The general process was taken from a [http://developer.download.nvidia.com/SDK/10.5/direct3d/Source/VolumeLight/doc/VolumeLight.pdf"](Nvidia paper on the subject). First, a shadow map is necessary. Then, a similar depth buffer from the perspective of the camera is needed. Now, by using a new quad rendered to the screen, depths are read in from the scene depth buffer and converted to world space and then to light space. A ray is traced from the light space position of the initial quad to the ending position that was read from the depth buffer. We sample this ray X times, depending on how high of a quality we want there to be, and then each time that the sample is in view of the light, we add to a value. Thus, we get a count for how bright each pixel on the quad should be. A slight optimization on this process is to then blur this texture of the light values so that the edges are less harsh and more natural. Lastly, we take this quad and another prerendered quad of just a view of the scene and we add the pixel values together.
+The general process was taken from a [Nvidia paper on the subject](http://developer.download.nvidia.com/SDK/10.5/direct3d/Source/VolumeLight/doc/VolumeLight.pdf). First, a shadow map is necessary. Then, a similar depth buffer from the perspective of the camera is needed. Now, by using a new quad rendered to the screen, depths are read in from the scene depth buffer and converted to world space and then to light space. A ray is traced from the light space position of the initial quad to the ending position that was read from the depth buffer. We sample this ray X times, depending on how high of a quality we want there to be, and then each time that the sample is in view of the light, we add to a value. Thus, we get a count for how bright each pixel on the quad should be. A slight optimization on this process is to then blur this texture of the light values so that the edges are less harsh and more natural. Lastly, we take this quad and another prerendered quad of just a view of the scene and we add the pixel values together.
 
 ## Results
 This project ended incredibly well!
@@ -56,8 +56,7 @@ This is a dragon rotating in the scene so that we can really look at how it ende
 
 The only problem is that, when the sampling isn't set that high, there are these weird circles, similar to shadow acne. I am not quite sure how to fix this.
 
-[href="https://www.youtube.com/watch?v=FMcJD0R-rYQ"](Video of the scene.)
-(href="https://www.youtube.com/watch?v=FMcJD0R-rYQ")[Video of the scene.]
+[Video of the scene.](https://www.youtube.com/watch?v=FMcJD0R-rYQ)
 
 ## Sources
 
