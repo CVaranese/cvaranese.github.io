@@ -75,4 +75,5 @@ comments: true
 <p><a href="https://www.youtube.com/watch?v=FMcJD0R-rYQ">Video of the scene.</a></p>
 <p>&nbsp;</p>
 <h2>Sources</h2>
+
 <p><a href="http://developer.download.nvidia.com/SDK/10.5/direct3d/Source/VolumeLight/doc/VolumeLight.pdf">http://developer.download.nvidia.com/SDK/10.5/direct3d/Source/VolumeLight/doc/VolumeLight.pdf</a></p>
