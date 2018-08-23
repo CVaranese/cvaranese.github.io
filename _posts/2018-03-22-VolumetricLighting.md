@@ -44,10 +44,10 @@ This project ended incredibly well!
 This is a dragon rotating in the scene so that we can really look at how it ended up. Here is some more of the scene:
 
 {% capture images %}
+    https://i.imgur.com/U12Vx7L.png
 	https://i.imgur.com/xo22tR5.png
 	https://i.imgur.com/sJgKm8u.png
 	https://i.imgur.com/TejZdEp.png
-    https://i.imgur.com/U12Vx7L.png
 {% endcapture %}
 {% include gallery images=images caption="Images of the scene" cols=2 %}
 
