@@ -26,8 +26,8 @@ layout: compress
                         {% if post.project %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            {% if post.feature %}
-                            <img src="{{site.url}}{{post.feature}}" alt="Italian Trulli">
+                            {% if post.thumbnail %}
+                            <img src="{{site.url}}{{post.thumbnail}}">
                             {% endif %}
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
