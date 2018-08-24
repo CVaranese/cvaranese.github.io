@@ -4,6 +4,7 @@ title: "Prediction of Steering Angles"
 date: 2018-06-05
 excerpt: "Using Keras to predict steering angles from images of the road"
 feature: /assets/img/image4.jpg
+thumbnail: /assets/img/image5.png
 tag:
 - Python
 - Neural Network
