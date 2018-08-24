@@ -28,7 +28,7 @@ Our initial test 2D CNN performed much better than we expected, reaching an mse 
 Personal video and steering angles were collected using a mechanical engineering senior project RC car. The goal was to take what was learned from the MIT deepTesla dataset and apply it to a real world control problem. Videos were obtained, but time only allowed for a study in saliency maps.
 
 {% capture images %}
-	/assets/img/image4.png
+	/assets/img/image4.jpg
 {% endcapture %}
 {% include gallery images=images caption="Figure 4.  RC car was used to log video and steering angles" %}
 
