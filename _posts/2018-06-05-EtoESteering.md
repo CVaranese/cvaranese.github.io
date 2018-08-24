@@ -12,9 +12,9 @@ tag:
 - Keras
 - Tesla
 project: true
+github: prothhammer/EndToEndSteering
 comments: false
 ---
-<center><h2><a href="https://github.com/prothhammer/EndToEndSteering">Source Code</a></h2></center>
 
 ## Overview
 DeepTesla from MIT offers 10 videos of a Tesla Model S being driven on the highway, each with steering angle time stamped with each frame. The videos run at 30 FPS, which was sufficient for DeepTesla for being able to predict the steering angle from looking at a video stream using a Convolutional Neural Network (CNN). Five of the datasets are with the Tesla autopilot driving and the latter half is with a human driver. DeepTesla was able to get good results with their CNN, but we wanted to see if we could improve the error by adding in recurrence in the form of a 3D CNN.
