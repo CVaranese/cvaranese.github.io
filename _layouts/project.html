@@ -28,14 +28,13 @@ layout: compress
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <div class="btn zoombutton" onclick="location.href='{{ site.url }}{{ post.url }}';" style="cursor: pointer;z-index:9999;width:100%;" >
-                            {% if post.thumbnail %}
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">
-                                <img src="{{site.url}}{{post.thumbnail}}" style="max-height:100px;margin-left:0px;">
-                            </a>
-                            {% endif %}
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                                {% if post.thumbnail %}
+                                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">
+                                    <img src="{{site.url}}{{post.thumbnail}}" style="max-height:100px;margin-left:0px;">
+                                </a>
+                                {% endif %}
+                                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                                <p>{{ post.excerpt }}</p>
                             </div>
                         </li>
                     </ul>
