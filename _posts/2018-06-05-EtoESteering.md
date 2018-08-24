@@ -38,7 +38,7 @@ The project got off to a slow start because of all of the unforeseen difficultie
 
 
 
-References
-[1] “DeepTesla - End-to-End Steering Model.” DeepTesla, selfdrivingcars.mit.edu/deeptesla/.
-[2]  Du, Shuyang, et al. “Self-Driving Car Steering Angle Prediction Based on Image Recognition.” Stanford, pp. 1–9. 
+## References
+[1]: https://selfdrivingcars.mit.edu/deeptesla/ “DeepTesla - End-to-End Steering Model.”
+[2]:  Du, Shuyang, et al. “Self-Driving Car Steering Angle Prediction Based on Image Recognition.” Stanford, pp. 1–9. 
 
