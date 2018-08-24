@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Overwatch Match Prediction"
+title: "Overwatch Fight Prediction"
 date: 2017-12-05
 excerpt: "Final part of a Data Science project to predict the winners of fights in Overwatch"
 tag:
