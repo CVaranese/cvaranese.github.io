@@ -4,6 +4,7 @@ title:  "Volumetric Lighting"
 date:   2018-03-22
 project: true
 excerpt: "OpenGL implementation of Volumetric Lighting"
+thumbnail: /assets/img/vlight_thumb.png
 tag:
 - volumetric
 - lighting
