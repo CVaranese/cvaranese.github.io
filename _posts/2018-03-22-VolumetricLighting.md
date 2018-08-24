@@ -13,7 +13,7 @@ tag:
 - c++
 - nvidia
 - csc471
-comments: true
+comments: false
 ---
 ## Project Description
 
