@@ -17,7 +17,7 @@ comments: false
 DeepTesla from MIT offers 10 videos of a Tesla Model S being driven on the highway, each with steering angle time stamped with each frame. The videos run at 30 FPS, which was sufficient for DeepTesla for being able to predict the steering angle from looking at a video stream using a Convolutional Neural Network (CNN). Five of the datasets are with the Tesla autopilot driving and the latter half is with a human driver. DeepTesla was able to get good results with their CNN, but we wanted to see if we could improve the error by adding in recurrence in the form of a 3D CNN.
 
 ## 2D CNN with Saliency Maps
-Our initial test 2D CNN performed much better than we expected, reaching an mse loss of around 1 after 2 epochs (which varied sometimes during training). The saliency maps show various things are picked up to determine the steering angle such as the lane lines, guard rails, and surprisingly enough-- the reflection of the vents!
+Our initial test 2D CNN performed much better than we expected, reaching an mse loss of around 1 after 2 epochs (which varied sometimes during training). The saliency maps show various things are picked up to determine the steering angle such as the lane lines, guard rails, and surprisingly enough-- the reflection of the [vents][1]!
 
 {% capture images %}
 	/assets/img/image5.png
