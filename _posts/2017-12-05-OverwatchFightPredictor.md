@@ -13,7 +13,7 @@ tag:
 project: true
 comments: false
 ---
-<center><a href="https://github.com/CVaranese/Data301/tree/master/project">Source Code</a></center>
+<center><h2><a href="https://github.com/CVaranese/Data301/tree/master/project">Source Code</a></h2></center>
 
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
