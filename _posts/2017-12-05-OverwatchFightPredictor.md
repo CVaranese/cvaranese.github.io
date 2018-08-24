@@ -240,7 +240,7 @@ comments: true
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Dropping-unusable-columns">Dropping unusable columns<a class="anchor-link" href="#Dropping-unusable-columns">&#182;</a></h3><p>I need to make sure that I am only using the columns with numbers in it.</p>
+<h3 id="Dropping-unusable-columns">Dropping unusable columns</h3><p>I need to make sure that I am only using the columns with numbers in it.</p>
 
 </div>
 </div>
@@ -263,7 +263,7 @@ comments: true
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Random-Forest-Classification">Random Forest Classification<a class="anchor-link" href="#Random-Forest-Classification">&#182;</a></h2><p>First, I need to prepare my X and y dataframes so that I can easily make a model.</p>
+<h2 id="Random-Forest-Classification">Random Forest Classification</h2><p>First, I need to prepare my X and y dataframes so that I can easily make a model.</p>
 
 </div>
 </div>
@@ -307,33 +307,6 @@ comments: true
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[28]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>RandomForestClassifier(bootstrap=True, class_weight=None, criterion=&#39;gini&#39;,
-            max_depth=None, max_features=&#39;auto&#39;, max_leaf_nodes=None,
-            min_impurity_decrease=0.0, min_impurity_split=None,
-            min_samples_leaf=1, min_samples_split=2,
-            min_weight_fraction_leaf=0.0, n_estimators=1000, n_jobs=1,
-            oob_score=False, random_state=None, verbose=0,
-            warm_start=False)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -496,33 +469,6 @@ comments: true
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[10]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>RandomForestClassifier(bootstrap=True, class_weight=None, criterion=&#39;gini&#39;,
-            max_depth=None, max_features=&#39;auto&#39;, max_leaf_nodes=None,
-            min_impurity_decrease=0.0, min_impurity_split=None,
-            min_samples_leaf=1, min_samples_split=2,
-            min_weight_fraction_leaf=0.0, n_estimators=1000, n_jobs=1,
-            oob_score=False, random_state=None, verbose=0,
-            warm_start=False)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
@@ -629,7 +575,7 @@ comments: true
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Neural-Network">Neural Network<a class="anchor-link" href="#Neural-Network">&#182;</a></h2>
+<h2 id="Neural-Network">Neural Network</h2>
 </div>
 </div>
 </div>
@@ -696,33 +642,7 @@ Using TensorFlow backend.
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
 
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[16]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[0., 1., 1., ..., 1., 0., 0.],
-       [0., 0., 1., ..., 1., 0., 0.],
-       [0., 0., 0., ..., 0., 0., 0.],
-       ...,
-       [1., 1., 1., ..., 0., 0., 0.],
-       [0., 1., 1., ..., 0., 0., 0.],
-       [0., 1., 1., ..., 0., 0., 0.]])</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[17]:</div>
@@ -778,7 +698,7 @@ Epoch 2/25
 Epoch 3/25
 3052/3052 [==============================] - 0s 40us/step - loss: 0.6606 - acc: 0.6114
 Epoch 4/25
-3052/3052 [==============================] - 0s 41us/step - loss: 0.6599 - acc: 0.6104
+3052/3052 [==============================] - 0s 41us/step - loss: 0.6599 - acc: 0.64
 Epoch 5/25
 3052/3052 [==============================] - 0s 40us/step - loss: 0.6537 - acc: 0.6212
 Epoch 6/25
