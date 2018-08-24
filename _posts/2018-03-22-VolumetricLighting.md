@@ -2,7 +2,6 @@
 layout: post
 title:  "Volumetric Lighting"
 date:   2018-03-22
-excerpt: "OpenGL implementation of Volumetric Lighting"
 project: true
 tag:
 - volumetric
