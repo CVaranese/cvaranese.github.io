@@ -10,4 +10,5 @@ tag:
 - Keras
 - Tesla
 project: true
+comments: false
 ---
