@@ -18,7 +18,7 @@ comments: true
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Model">Model<a class="anchor-link" href="#Model"></a></h1>
+<h1 id="Model">Model</h1>
 </div>
 </div>
 </div>
