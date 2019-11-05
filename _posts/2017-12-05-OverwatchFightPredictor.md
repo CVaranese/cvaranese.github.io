@@ -225,7 +225,7 @@ alt.Chart(df).mark_bar().encode(
 ).transform_filter(datum.Winner != 'Tie')
 ```
 
-![png](assets/img/EDA_4_0.png)
+![png](/assets/img/EDA_4_0.png)
 
 
 As we can see, the team who draws first blood is extremely likely to win the fight.
