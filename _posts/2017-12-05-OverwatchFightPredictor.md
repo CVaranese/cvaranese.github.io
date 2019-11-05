@@ -254,7 +254,7 @@ alt.Chart(df).mark_bar().encode(
 ```
 
 
-![png](assets/img/EDA_6_0.png)
+![png](/assets/img/EDA_6_0.png)
 
 
 There is a large amount of variation in likelyhood to win the fight based on which character was killed first.
@@ -277,7 +277,7 @@ alt.Chart(df).mark_bar().encode(
 )
 ```
 
-![png](assets/img/EDA_8_0.png)
+![png](/assets/img/EDA_8_0.png)
 
 Three maps were excluded as they are perfectly symmetric. For the remaining maps, there is an attacker and a defender. On the Two Control Point maps, the defender is much more likely to win than the attacker when compared with Escort and Hybrid maps.
 
@@ -307,7 +307,7 @@ alt.Chart(df).mark_bar().encode(
 
 
 
-![png](assets/img/EDA_10_0.png)
+![png](/assets/img/EDA_10_0.png)
 
 
 Similar to the previous graph, we see that the defenders have the advantage on Two Control Point maps. On attack for these maps, if the attacker draws first blood, their chance of winning the fight is not much higher than 50%.
@@ -353,7 +353,7 @@ chart = y | (mid & x)
 chart
 ```
 
-![png](assets/img/EDA_12_0.png)
+![png](/assets/img/EDA_12_0.png)
 
 
 This shows that there is a clear relationship between ultimates used and fight win percentage.
