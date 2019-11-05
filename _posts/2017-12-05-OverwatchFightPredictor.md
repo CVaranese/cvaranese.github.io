@@ -11,7 +11,7 @@ tag:
 - Numpy
 - Pandas
 project: true
-github: https://github.com/CVaranese/Data301/tree/master/project
+github: CVaranese/Data301/tree/master/project
 comments: false
 ---
 
