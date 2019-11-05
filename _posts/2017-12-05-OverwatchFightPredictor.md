@@ -225,11 +225,10 @@ alt.Chart(df).mark_bar().encode(
 ).transform_filter(datum.Winner != 'Tie')
 ```
 
-
-
-
-![png](EDA_files/EDA_4_0.png)
-
+{% capture images %}
+	/assets/img/EDA_4_0.png
+{% endcapture %}
+{% include gallery images=images}
 
 
 As we can see, the team who draws first blood is extremely likely to win the fight.
@@ -258,10 +257,10 @@ alt.Chart(df).mark_bar().encode(
 ```
 
 
-
-
-![png](EDA_files/EDA_6_0.png)
-
+{% capture images %}
+	/assets/img/EDA_6_0.png
+{% endcapture %}
+{% include gallery images=images}
 
 
 There is a large amount of variation in likelyhood to win the fight based on which character was killed first.
@@ -284,11 +283,10 @@ alt.Chart(df).mark_bar().encode(
 )
 ```
 
-
-
-
-![png](EDA_files/EDA_8_0.png)
-
+{% capture images %}
+	/assets/img/EDA_8_0.png
+{% endcapture %}
+{% include gallery images=images}
 
 
 Three maps were excluded as they are perfectly symmetric. For the remaining maps, there is an attacker and a defender. On the Two Control Point maps, the defender is much more likely to win than the attacker when compared with Escort and Hybrid maps.
@@ -319,8 +317,10 @@ alt.Chart(df).mark_bar().encode(
 
 
 
-
-![png](EDA_files/EDA_10_0.png)
+{% capture images %}
+	/assets/img/EDA_10_0.png
+{% endcapture %}
+{% include gallery images=images}
 
 
 
@@ -373,7 +373,7 @@ chart
 {% capture images %}
 	/assets/img/EDA_12_0.png
 {% endcapture %}
-
+{% include gallery images=images}
 
 
 This shows that there is a clear relationship between ultimates used and fight win percentage.
